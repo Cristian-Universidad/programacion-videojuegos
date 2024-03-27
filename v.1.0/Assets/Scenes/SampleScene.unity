@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 98822278}
   - component: {fileID: 98822277}
   - component: {fileID: 98822276}
+  - component: {fileID: 98822280}
   m_Layer: 0
   m_Name: Luigi_0
   m_TagString: Untagged
@@ -178,7 +179,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &98822278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -244,6 +245,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98822280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98822275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164bf362d2faab44a81c3e1c599e14b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  JumpForce: 500
 --- !u!1 &123730807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1044,7 @@ GameObject:
   - component: {fileID: 1151364339}
   - component: {fileID: 1151364341}
   - component: {fileID: 1151364342}
+  - component: {fileID: 1151364343}
   m_Layer: 0
   m_Name: Mario_0
   m_TagString: Untagged
@@ -1121,7 +1137,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1151364342
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1138,6 +1154,20 @@ CapsuleCollider2D:
   m_Offset: {x: -0.042912688, y: -0.13589065}
   m_Size: {x: 2.0416746, y: 3.5979614}
   m_Direction: 0
+--- !u!114 &1151364343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151364338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164bf362d2faab44a81c3e1c599e14b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  JumpForce: 500
 --- !u!1 &1177359015
 GameObject:
   m_ObjectHideFlags: 0
